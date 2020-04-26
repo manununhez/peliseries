@@ -42,9 +42,15 @@ class Movies extends Component {
 
   componentDidMount() {
 
-    const name = this.props.location.state.url;
+    // console.log(this.props.location.state);
 
-    fetch(name)
+    const url = this.props.location.state === undefined ? localStorage.getItem('url') : this.props.location.state.url;
+
+    // const url = name ? localStorage.getItem('url') : name;
+    
+    localStorage.setItem('url', url);
+
+    fetch(url)
       .then(res => res.json())
       .then((data) => {
         var entry = data.feed.entry;

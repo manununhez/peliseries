@@ -108,43 +108,36 @@ class Index extends React.Component {
         <main ref="main">
           {/* <Hero /> */}
           <div className="position-relative">
-          {/* Hero for FREE version */}
-          <section className="section section-hero section-shaped">
-            {/* Background circles */}
-            <div className="shape shape-style-1 shape-default">
-              <span className="span-150" />
-              <span className="span-50" />
-              <span className="span-50" />
-              <span className="span-75" />
-              <span className="span-100" />
-              <span className="span-75" />
-              <span className="span-50" />
-              <span className="span-100" />
-              <span className="span-50" />
-              <span className="span-100" />
-            </div>
-            <Container className="shape-container d-flex align-items-center py-lg">
-              <div className="col px-0">
-                <Row className="align-items-center justify-content-center">
-                {addVideoPosters(this.state)}
-                </Row>
+            {/* Hero for FREE version */}
+            <section className="section section-hero section-shaped">
+              {/* Background circles */}
+              <div className="shape shape-style-1 shape-default">
+                <span className="span-150" />
+                <span className="span-50" />
+                <span className="span-50" />
+                <span className="span-75" />
+                <span className="span-100" />
+                <span className="span-75" />
+                <span className="span-50" />
+                <span className="span-100" />
+                <span className="span-50" />
+                <span className="span-100" />
               </div>
-            </Container>
-          </section>
-        </div>
+              <Container className="shape-container d-flex align-items-center py-lg">
+                <Row className="align-items-center justify-content-center">
+                  {addVideoPosters(this.state)}
+                </Row>
+              </Container>
+            </section>
+          </div>
         </main>
       </>
     );
   }
 }
 
-function addVideoPosters(content) {
-  return <div className="recommended-grids">
-    {loopPosters(content)}
-  </div>;
-}
 
-function loopPosters(content) {
+function addVideoPosters(content) {
   let children = [];
 
   var index_init = 1;//from 1, to avoid the header name of the cell. e.g.,videos.id[0] == title
@@ -157,25 +150,13 @@ function loopPosters(content) {
           url: content.url[i]
         }
       }}>
-        <Container className="pt-lg-7">
-            <Row className="justify-content-center">
-              <Col lg="3">
-                <Card className="bg-secondary shadow border-0">
-                  <CardBody className="px-lg-5 py-lg-5">
-                  <img src={content.thumbnail[i]}  className="App-logo" alt="logo" />
-                  </CardBody>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-        {/* <div className="col-md-3 resent-grid recommended-grid">
-          <div className="resent-grid-img recommended-grid-img">
-            <img src={content.thumbnail[i]} alt="" className="img-thumbnail" />
-          </div> */}
-          {/* <div className="resent-grid-info recommended-grid-info">
-            <div className="title">{content.name[i]}</div>
-          </div> */}
-        {/* </div > */}
+        <Col className="py-3 px-md-5">
+          <Card className="bg-secondary shadow border-0">
+            <CardBody>
+              <img src={content.thumbnail[i]} className="App-logo" alt="logo" />
+            </CardBody>
+          </Card>
+        </Col>
       </Link>
     );
   }

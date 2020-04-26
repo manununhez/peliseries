@@ -1,29 +1,46 @@
 import React, { Component } from 'react';
+import {
+  Container,
+  Row
+} from "reactstrap";
 import Videos from '../components/videos';
 
 
 class Movies extends Component {
   render() {
     return (
-      <div>
-        {/* <div className="col-sm-3 col-md-2 sidebar">
-          <div className="drop-navigation drop-navigation">
-            <ul className="nav nav-sidebar">
-              <li className="active"><a href="index.html" className="home-icon"><span className="glyphicon glyphicon-home"
-                aria-hidden="true"></span>Home</a></li>
-              <li><a href="shows.html" className="user-icon"><span className="glyphicon glyphicon-home glyphicon-blackboard"
-                aria-hidden="true"></span>TV Shows</a></li>
-              <li><a href="history.html" className="sub-icon"><span className="glyphicon glyphicon-home glyphicon-hourglass"
-                aria-hidden="true"></span>History</a></li>
-            </ul>
+      <>
+        <main ref="main">
+          {/* <Hero /> */}
+          <div className="position-relative">
+            {/* Hero for FREE version */}
+            <section className="section section-hero section-shaped">
+              {/* Background circles */}
+              <div className="shape shape-style-1 shape-default">
+                <span className="span-150" />
+                <span className="span-50" />
+                <span className="span-50" />
+                <span className="span-75" />
+                <span className="span-100" />
+                <span className="span-75" />
+                <span className="span-50" />
+                <span className="span-100" />
+                <span className="span-50" />
+                <span className="span-100" />
+              </div>
+
+              <div className="pt-4 text-center">
+                <h4 className="display-4 mb-0">{this.state.id[1]}</h4>
+              </div>
+              <Container className="shape-container d-flex align-items-center py-lg">
+                <Row className="align-items-center justify-content-center">
+                  <Videos videos={this.state} />
+                </Row>
+              </Container>
+            </section>
           </div>
-        </div> */}
-        <div className="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <div className="main-grids">
-            <Videos videos={this.state} />
-          </div>
-        </div>
-      </div>
+        </main>
+      </>
     )
   }
 
@@ -47,7 +64,7 @@ class Movies extends Component {
     const url = this.props.location.state === undefined ? localStorage.getItem('url') : this.props.location.state.url;
 
     // const url = name ? localStorage.getItem('url') : name;
-    
+
     localStorage.setItem('url', url);
 
     fetch(url)

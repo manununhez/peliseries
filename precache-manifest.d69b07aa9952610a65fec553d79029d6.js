@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a841f4d92cde76f3b10b71f6fb71e013",
+    "revision": "995b1a78209a76c9939a312ad02ec4d5",
     "url": "/peliseries/index.html"
   },
   {
-    "revision": "1550137e53a718a191c7",
+    "revision": "ad44e248e7465ad019f6",
     "url": "/peliseries/static/css/main.6523ad50.chunk.css"
   },
   {
-    "revision": "73cb5612c94fc3d49276",
-    "url": "/peliseries/static/js/2.337f991e.chunk.js"
+    "revision": "8292ca30ac363bab709e",
+    "url": "/peliseries/static/js/2.5b535ae0.chunk.js"
   },
   {
-    "revision": "aa6806f9dbc9039857b07eadcbb3a1a7",
-    "url": "/peliseries/static/js/2.337f991e.chunk.js.LICENSE.txt"
+    "revision": "123c36955d3b020d1348e93b9ab88993",
+    "url": "/peliseries/static/js/2.5b535ae0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1550137e53a718a191c7",
-    "url": "/peliseries/static/js/main.50719589.chunk.js"
+    "revision": "ad44e248e7465ad019f6",
+    "url": "/peliseries/static/js/main.f2692a1d.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/peliseries/static/js/main.50719589.chunk.js.LICENSE.txt"
+    "url": "/peliseries/static/js/main.f2692a1d.chunk.js.LICENSE.txt"
   },
   {
     "revision": "44c52544d90ea83b16b6",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f38ddea9dedadea03c5d43c596dac13f",
     "url": "/peliseries/static/media/argon-react.f38ddea9.png"
-  },
-  {
-    "revision": "f7cb2d390498c2969b2b1050f3e024ce",
-    "url": "/peliseries/static/media/creativetim-white-slim.f7cb2d39.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -74,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1e7c70dc7d471d845aeed9e9bead0fe5",
     "url": "/peliseries/static/media/img-1-1200x1000.1e7c70dc.jpg"
-  },
-  {
-    "revision": "ba449a0697388668ef05e043ffdeafca",
-    "url": "/peliseries/static/media/img-2-1200x1000.ba449a06.jpg"
   },
   {
     "revision": "0ec264785c9b6efbed2651d84105f436",

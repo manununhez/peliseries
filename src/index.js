@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
@@ -31,7 +31,7 @@ import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route path="/" exact render={props => <Index {...props} />} />
       <Route
@@ -57,6 +57,6 @@ ReactDOM.render(
       />
       <Redirect to="/" />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );

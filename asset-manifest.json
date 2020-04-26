@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/peliseries/static/css/main.6523ad50.chunk.css",
-    "main.js": "/peliseries/static/js/main.f2692a1d.chunk.js",
-    "main.js.map": "/peliseries/static/js/main.f2692a1d.chunk.js.map",
+    "main.js": "/peliseries/static/js/main.6b6814fb.chunk.js",
+    "main.js.map": "/peliseries/static/js/main.6b6814fb.chunk.js.map",
     "runtime-main.js": "/peliseries/static/js/runtime-main.677413d1.js",
     "runtime-main.js.map": "/peliseries/static/js/runtime-main.677413d1.js.map",
-    "static/js/2.5b535ae0.chunk.js": "/peliseries/static/js/2.5b535ae0.chunk.js",
-    "static/js/2.5b535ae0.chunk.js.map": "/peliseries/static/js/2.5b535ae0.chunk.js.map",
+    "static/js/2.713e2f81.chunk.js": "/peliseries/static/js/2.713e2f81.chunk.js",
+    "static/js/2.713e2f81.chunk.js.map": "/peliseries/static/js/2.713e2f81.chunk.js.map",
     "index.html": "/peliseries/index.html",
-    "precache-manifest.d69b07aa9952610a65fec553d79029d6.js": "/peliseries/precache-manifest.d69b07aa9952610a65fec553d79029d6.js",
+    "precache-manifest.4b55318b88a4d526c2bb43845958f3ed.js": "/peliseries/precache-manifest.4b55318b88a4d526c2bb43845958f3ed.js",
     "service-worker.js": "/peliseries/service-worker.js",
     "static/css/main.6523ad50.chunk.css.map": "/peliseries/static/css/main.6523ad50.chunk.css.map",
-    "static/js/2.5b535ae0.chunk.js.LICENSE.txt": "/peliseries/static/js/2.5b535ae0.chunk.js.LICENSE.txt",
-    "static/js/main.f2692a1d.chunk.js.LICENSE.txt": "/peliseries/static/js/main.f2692a1d.chunk.js.LICENSE.txt",
+    "static/js/2.713e2f81.chunk.js.LICENSE.txt": "/peliseries/static/js/2.713e2f81.chunk.js.LICENSE.txt",
+    "static/js/main.6b6814fb.chunk.js.LICENSE.txt": "/peliseries/static/js/main.6b6814fb.chunk.js.LICENSE.txt",
     "static/media/argon-react-white.png": "/peliseries/static/media/argon-react-white.275a2629.png",
     "static/media/argon-react.png": "/peliseries/static/media/argon-react.f38ddea9.png",
     "static/media/font-awesome.min.css": "/peliseries/static/media/fontawesome-webfont.fee66e71.woff",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.677413d1.js",
-    "static/js/2.5b535ae0.chunk.js",
+    "static/js/2.713e2f81.chunk.js",
     "static/css/main.6523ad50.chunk.css",
-    "static/js/main.f2692a1d.chunk.js"
+    "static/js/main.6b6814fb.chunk.js"
   ]
 }

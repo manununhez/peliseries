@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/peliseries/static/css/main.6523ad50.chunk.css",
-    "main.js": "/peliseries/static/js/main.e17421fb.chunk.js",
-    "main.js.map": "/peliseries/static/js/main.e17421fb.chunk.js.map",
+    "main.js": "/peliseries/static/js/main.0ceacdc8.chunk.js",
+    "main.js.map": "/peliseries/static/js/main.0ceacdc8.chunk.js.map",
     "runtime-main.js": "/peliseries/static/js/runtime-main.677413d1.js",
     "runtime-main.js.map": "/peliseries/static/js/runtime-main.677413d1.js.map",
-    "static/js/2.713e2f81.chunk.js": "/peliseries/static/js/2.713e2f81.chunk.js",
-    "static/js/2.713e2f81.chunk.js.map": "/peliseries/static/js/2.713e2f81.chunk.js.map",
+    "static/js/2.86008e1e.chunk.js": "/peliseries/static/js/2.86008e1e.chunk.js",
+    "static/js/2.86008e1e.chunk.js.map": "/peliseries/static/js/2.86008e1e.chunk.js.map",
     "index.html": "/peliseries/index.html",
-    "precache-manifest.8e4b6504650183430ea2019619a7466b.js": "/peliseries/precache-manifest.8e4b6504650183430ea2019619a7466b.js",
+    "precache-manifest.52b55a09443d22d099c2770681e24b66.js": "/peliseries/precache-manifest.52b55a09443d22d099c2770681e24b66.js",
     "service-worker.js": "/peliseries/service-worker.js",
     "static/css/main.6523ad50.chunk.css.map": "/peliseries/static/css/main.6523ad50.chunk.css.map",
-    "static/js/2.713e2f81.chunk.js.LICENSE.txt": "/peliseries/static/js/2.713e2f81.chunk.js.LICENSE.txt",
-    "static/js/main.e17421fb.chunk.js.LICENSE.txt": "/peliseries/static/js/main.e17421fb.chunk.js.LICENSE.txt",
+    "static/js/2.86008e1e.chunk.js.LICENSE.txt": "/peliseries/static/js/2.86008e1e.chunk.js.LICENSE.txt",
+    "static/js/main.0ceacdc8.chunk.js.LICENSE.txt": "/peliseries/static/js/main.0ceacdc8.chunk.js.LICENSE.txt",
     "static/media/argon-react-white.png": "/peliseries/static/media/argon-react-white.275a2629.png",
-    "static/media/argon-react.png": "/peliseries/static/media/argon-react.f38ddea9.png",
     "static/media/font-awesome.min.css": "/peliseries/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/github.svg": "/peliseries/static/media/github.4ffd4fe7.svg",
     "static/media/google.svg": "/peliseries/static/media/google.87be59a1.svg",
@@ -31,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.677413d1.js",
-    "static/js/2.713e2f81.chunk.js",
+    "static/js/2.86008e1e.chunk.js",
     "static/css/main.6523ad50.chunk.css",
-    "static/js/main.e17421fb.chunk.js"
+    "static/js/main.0ceacdc8.chunk.js"
   ]
 }

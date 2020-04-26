@@ -43,7 +43,7 @@ class Hero extends React.Component {
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
-                  <Col className="text-center" lg="6">
+                  {/* <Col className="text-center" lg="6">
                     <img
                       alt="..."
                       className="img-fluid"
@@ -93,12 +93,12 @@ class Hero extends React.Component {
                         src={require("assets/img/brand/creativetim-white-slim.png")}
                       />
                     </div>
-                  </Col>
+                  </Col> */}
                 </Row>
               </div>
             </Container>
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -112,7 +112,7 @@ class Hero extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
+            </div> */}
           </section>
         </div>
       </>

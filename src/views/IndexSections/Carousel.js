@@ -36,6 +36,17 @@ const items = [
 ];
 
 class Carousel extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: 'Please write an essay about your favorite DOM element.'
+    };
+
+   console.log("Props:"+props)
+
+  }
+
+
   render() {
     return (
       <>
@@ -49,24 +60,24 @@ class Carousel extends React.Component {
             <span />
           </div>
           <Container className="py-md">
-            <Row className="justify-content-between align-items-center">
-              <Col className="mb-5 mb-lg-0" lg="5">
-                <h1 className="text-white font-weight-light">
+            <Row className="justify-content-center">
+              {/* <Col className="mb-5 mb-lg-0" lg="5"> */}
+              {/* <h1 className="text-white font-weight-light">
                   Bootstrap carousel
                 </h1>
                 <p className="lead text-white mt-4">
                   Argon Design System comes with four pre-built pages to help
                   you get started faster. You can change the text and images and
                   you're good to go.
-                </p>
-                <Button
+                </p> */}
+              {/* <Button
                   className="btn-white mt-4"
                   color="default"
                   href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
                 >
                   See all components
-                </Button>
-              </Col>
+                </Button> */}
+              {/* </Col> */}
               <Col className="mb-lg-auto" lg="6">
                 <div className="rounded shadow-lg overflow-hidden transform-perspective-right">
                   <UncontrolledCarousel items={items} />
@@ -75,7 +86,7 @@ class Carousel extends React.Component {
             </Row>
           </Container>
           {/* SVG separator */}
-          <div className="separator separator-bottom separator-skew">
+          {/* <div className="separator separator-bottom separator-skew">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
@@ -86,7 +97,7 @@ class Carousel extends React.Component {
             >
               <polygon className="fill-white" points="2560 0 2560 100 0 100" />
             </svg>
-          </div>
+          </div> */}
         </section>
       </>
     );

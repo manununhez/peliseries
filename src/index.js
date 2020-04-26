@@ -24,6 +24,7 @@ import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss";
 
 import Index from "views/Index.js";
+import Movies from "views/movies.js";
 import Landing from "views/examples/Landing.js";
 import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
@@ -48,6 +49,11 @@ ReactDOM.render(
         path="/register-page"
         exact
         render={props => <Register {...props} />}
+      />
+      <Route
+        path="/movies/:id"
+        exact
+        render={props => <Movies {...props} />}
       />
       <Redirect to="/" />
     </Switch>

@@ -17,83 +17,169 @@
 */
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 // reactstrap components
-import { Container, Row } from "reactstrap";
+import {
+  Card,
+  CardBody,
+  Container,
+  Row,
+  Col
+} from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
 
-// index page sections
-import Hero from "./IndexSections/Hero.js";
-import Buttons from "./IndexSections/Buttons.js";
-import Inputs from "./IndexSections/Inputs.js";
-import CustomControls from "./IndexSections/CustomControls.js";
-import Menus from "./IndexSections/Menus.js";
-import Navbars from "./IndexSections/Navbars.js";
-import Tabs from "./IndexSections/Tabs.js";
-import Progress from "./IndexSections/Progress.js";
-import Pagination from "./IndexSections/Pagination.js";
-import Pills from "./IndexSections/Pills.js";
-import Labels from "./IndexSections/Labels.js";
-import Alerts from "./IndexSections/Alerts.js";
-import Typography from "./IndexSections/Typography.js";
-import Modals from "./IndexSections/Modals.js";
-import Datepicker from "./IndexSections/Datepicker.js";
-import TooltipPopover from "./IndexSections/TooltipPopover.js";
-import Carousel from "./IndexSections/Carousel.js";
-import Icons from "./IndexSections/Icons.js";
-import Login from "./IndexSections/Login.js";
-import Download from "./IndexSections/Download.js";
 
 class Index extends React.Component {
-  componentDidMount() {
-    document.documentElement.scrollTop = 0;
-    document.scrollingElement.scrollTop = 0;
-    this.refs.main.scrollTop = 0;
+  state = {
+    id: [],
+    type: [],
+    name: [],
+    seasons: [],
+    creator: [],
+    tags: [],
+    years: [],
+    thumbnail: [],
+    url: []
   }
+
+
+  componentDidMount() {
+    const URL = 'https://spreadsheets.google.com/feeds/cells/1L0ECPYHZ4DTGibbGuJq00L97_ZYzqVKdY1yfL0ZVEj8/1/public/full?alt=json';
+    fetch(URL)
+      .then(res => res.json())
+      .then((data) => {
+        var entry = data.feed.entry;
+        var id = []; // the leftmost column of the Google Sheets
+        var type = []; // second-left column
+        var name = [];// third-left column
+        var seasons = [];// fourth-left column
+        var creator = [];// fifth-left column
+        var tags = [];// sixth-left column
+        var years = [];// seventh-left column
+        var thumbnail = [];// eigth-left column
+        var url = [];// last column
+        for (var i = 0; i < entry.length; i += 9) {
+          // entry[i].content.$t retrieves the content of each cell
+          id.push(entry[i].content.$t);
+          type.push(entry[i + 1].content.$t);
+          name.push(entry[i + 2].content.$t);
+          seasons.push(entry[i + 3].content.$t);
+          creator.push(entry[i + 4].content.$t);
+          tags.push(entry[i + 5].content.$t);
+          years.push(entry[i + 6].content.$t);
+          thumbnail.push(entry[i + 7].content.$t);
+          url.push(entry[i + 8].content.$t);
+        }
+
+        // console.log(id);
+        // console.log(type);
+        // console.log(name);
+        // console.log(seasons);
+        // console.log(creator);
+        // console.log(tags);
+        // console.log(years);
+        // console.log(thumbnail);
+        // console.log(url);
+
+        this.setState({
+          id: id, type: type, name: name, seasons: seasons,
+          creator: creator, tags: tags, years: years, thumbnail: thumbnail, url: url
+        })
+      })
+      .catch(console.log)
+  }
+
+  // render(){
+  // return (
+  //   <div className="recommended">
+  //     {addVideoPosters(this.state)}
+  //   </div>
+  // );
+
+
   render() {
+    this.logo = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.google.com%2Flogos%2Fdoodles%2F2020%2Fchespiritos-91st-birthday-6753651837108294.3-2x.png&imgrefurl=https%3A%2F%2Fwww.google.com%2Fdoodles%2Fchespiritos-91st-birthday&tbnid=QVAuz6ol1t4SZM&vet=12ahUKEwjAkpqN8oTpAhXLkaQKHbbOBjUQMygAegUIARDvAQ..i&docid=B1-xm0kYSJS2SM&w=1000&h=400&q=google%20chavo&ved=2ahUKEwjAkpqN8oTpAhXLkaQKHbbOBjUQMygAegUIARDvAQ";
     return (
       <>
         <DemoNavbar />
         <main ref="main">
-          <Hero />
-          <Buttons />
-          <Inputs />
-          <section className="section">
-            <Container>
-              <CustomControls />
-              <Menus />
+          {/* <Hero /> */}
+          <div className="position-relative">
+          {/* Hero for FREE version */}
+          <section className="section section-hero section-shaped">
+            {/* Background circles */}
+            <div className="shape shape-style-1 shape-default">
+              <span className="span-150" />
+              <span className="span-50" />
+              <span className="span-50" />
+              <span className="span-75" />
+              <span className="span-100" />
+              <span className="span-75" />
+              <span className="span-50" />
+              <span className="span-100" />
+              <span className="span-50" />
+              <span className="span-100" />
+            </div>
+            <Container className="shape-container d-flex align-items-center py-lg">
+              <div className="col px-0">
+                <Row className="align-items-center justify-content-center">
+                {addVideoPosters(this.state)}
+                </Row>
+              </div>
             </Container>
           </section>
-          <Navbars />
-          <section className="section section-components">
-            <Container>
-              <Tabs />
-              <Row className="row-grid justify-content-between align-items-center mt-lg">
-                <Progress />
-                <Pagination />
-              </Row>
-              <Row className="row-grid justify-content-between">
-                <Pills />
-                <Labels />
-              </Row>
-              <Alerts />
-              <Typography />
-              <Modals />
-              <Datepicker />
-              <TooltipPopover />
-            </Container>
-          </section>
-          <Carousel />
-          <Icons />
-          <Login />
-          <Download />
+        </div>
         </main>
-        <CardsFooter />
       </>
     );
   }
+}
+
+function addVideoPosters(content) {
+  return <div className="recommended-grids">
+    {loopPosters(content)}
+  </div>;
+}
+
+function loopPosters(content) {
+  let children = [];
+
+  var index_init = 1;//from 1, to avoid the header name of the cell. e.g.,videos.id[0] == title
+  for (let i = index_init; i < content.id.length; i++) {
+    children.push(
+
+      <Link to={{
+        pathname: '/movies/' + content.id[i],
+        state: {
+          url: content.url[i]
+        }
+      }}>
+        <Container className="pt-lg-7">
+            <Row className="justify-content-center">
+              <Col lg="3">
+                <Card className="bg-secondary shadow border-0">
+                  <CardBody className="px-lg-5 py-lg-5">
+                  <img src={content.thumbnail[i]}  className="App-logo" alt="logo" />
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+        {/* <div className="col-md-3 resent-grid recommended-grid">
+          <div className="resent-grid-img recommended-grid-img">
+            <img src={content.thumbnail[i]} alt="" className="img-thumbnail" />
+          </div> */}
+          {/* <div className="resent-grid-info recommended-grid-info">
+            <div className="title">{content.name[i]}</div>
+          </div> */}
+        {/* </div > */}
+      </Link>
+    );
+  }
+  return (children);
 }
 
 export default Index;

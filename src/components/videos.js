@@ -33,11 +33,11 @@ function createVideos(videos) {
           <CardBody>
             <Container>
               <Row className="justify-content-center">
-                <a href={videos.video_url[i]}><img className="img-fluid rounded shadow-lg" src={videos.thumbnail[i]} alt="" /></a>
+                <a href={videos.video_url[i]}><img className="img-fluid rounded shadow-lg" width="400" src={videos.thumbnail[i]} alt="" /></a>
               </Row>
 
               <Row className="justify-content-center">
-                <h6 className="mb-0 al"><a href={videos.video_url[i]} className="title">{videos.title[i]}</a></h6>
+                <h5 className="mb-0 al"><a href={videos.video_url[i]} className="title">{videos.title[i]}</a></h5>
               </Row>
               <Row className="justify-content-center">
                 <ul className="list-inline">

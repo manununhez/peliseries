@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d993f0355cdfec40a73d58e728fc7a5",
+    "revision": "9555b8f28308e4d7f903a343357acf6c",
     "url": "/peliseries/index.html"
   },
   {
-    "revision": "26de69eff689be9b4997",
+    "revision": "180297adce87cd1f028a",
     "url": "/peliseries/static/css/main.6523ad50.chunk.css"
   },
   {
@@ -16,20 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/peliseries/static/js/2.86008e1e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "26de69eff689be9b4997",
-    "url": "/peliseries/static/js/main.ee597173.chunk.js"
+    "revision": "180297adce87cd1f028a",
+    "url": "/peliseries/static/js/main.01c2ae4c.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/peliseries/static/js/main.ee597173.chunk.js.LICENSE.txt"
+    "url": "/peliseries/static/js/main.01c2ae4c.chunk.js.LICENSE.txt"
   },
   {
     "revision": "44c52544d90ea83b16b6",
     "url": "/peliseries/static/js/runtime-main.677413d1.js"
-  },
-  {
-    "revision": "275a2629582aa2af3469364c6748cf38",
-    "url": "/peliseries/static/media/argon-react-white.275a2629.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",

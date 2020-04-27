@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/peliseries/static/css/main.6523ad50.chunk.css",
-    "main.js": "/peliseries/static/js/main.822c96f9.chunk.js",
-    "main.js.map": "/peliseries/static/js/main.822c96f9.chunk.js.map",
+    "main.js": "/peliseries/static/js/main.ee597173.chunk.js",
+    "main.js.map": "/peliseries/static/js/main.ee597173.chunk.js.map",
     "runtime-main.js": "/peliseries/static/js/runtime-main.677413d1.js",
     "runtime-main.js.map": "/peliseries/static/js/runtime-main.677413d1.js.map",
     "static/js/2.86008e1e.chunk.js": "/peliseries/static/js/2.86008e1e.chunk.js",
     "static/js/2.86008e1e.chunk.js.map": "/peliseries/static/js/2.86008e1e.chunk.js.map",
     "index.html": "/peliseries/index.html",
-    "precache-manifest.09fdf82d151cefea18764227001fb1a0.js": "/peliseries/precache-manifest.09fdf82d151cefea18764227001fb1a0.js",
+    "precache-manifest.b6d22547e7c7da1572ea7263ba0faad3.js": "/peliseries/precache-manifest.b6d22547e7c7da1572ea7263ba0faad3.js",
     "service-worker.js": "/peliseries/service-worker.js",
     "static/css/main.6523ad50.chunk.css.map": "/peliseries/static/css/main.6523ad50.chunk.css.map",
     "static/js/2.86008e1e.chunk.js.LICENSE.txt": "/peliseries/static/js/2.86008e1e.chunk.js.LICENSE.txt",
-    "static/js/main.822c96f9.chunk.js.LICENSE.txt": "/peliseries/static/js/main.822c96f9.chunk.js.LICENSE.txt",
+    "static/js/main.ee597173.chunk.js.LICENSE.txt": "/peliseries/static/js/main.ee597173.chunk.js.LICENSE.txt",
     "static/media/argon-react-white.png": "/peliseries/static/media/argon-react-white.275a2629.png",
     "static/media/font-awesome.min.css": "/peliseries/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/github.svg": "/peliseries/static/media/github.4ffd4fe7.svg",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.677413d1.js",
     "static/js/2.86008e1e.chunk.js",
     "static/css/main.6523ad50.chunk.css",
-    "static/js/main.822c96f9.chunk.js"
+    "static/js/main.ee597173.chunk.js"
   ]
 }

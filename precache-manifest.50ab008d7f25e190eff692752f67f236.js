@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9555b8f28308e4d7f903a343357acf6c",
+    "revision": "287f6002456fb48797577013809967cb",
     "url": "/peliseries/index.html"
   },
   {
-    "revision": "180297adce87cd1f028a",
+    "revision": "48a36ceec733a4e1a797",
     "url": "/peliseries/static/css/main.6523ad50.chunk.css"
   },
   {
@@ -16,16 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/peliseries/static/js/2.86008e1e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "180297adce87cd1f028a",
-    "url": "/peliseries/static/js/main.01c2ae4c.chunk.js"
+    "revision": "48a36ceec733a4e1a797",
+    "url": "/peliseries/static/js/main.4129a19c.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/peliseries/static/js/main.01c2ae4c.chunk.js.LICENSE.txt"
+    "url": "/peliseries/static/js/main.4129a19c.chunk.js.LICENSE.txt"
   },
   {
     "revision": "44c52544d90ea83b16b6",
     "url": "/peliseries/static/js/runtime-main.677413d1.js"
+  },
+  {
+    "revision": "a0f0f439ef3963c61d709f9d1a1c6420",
+    "url": "/peliseries/static/media/donramon.a0f0f439.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",

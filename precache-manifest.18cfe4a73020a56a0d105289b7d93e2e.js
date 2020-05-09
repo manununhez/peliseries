@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03c3f92cc9d1762e57b285e1f6508bbd",
+    "revision": "b996daa044f7b6c442076c542496373e",
     "url": "/peliseries/index.html"
   },
   {
-    "revision": "7223a677f9c011e1c86e",
+    "revision": "b30d91db09adbfc41b82",
     "url": "/peliseries/static/css/main.6523ad50.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/peliseries/static/js/2.2d008fb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7223a677f9c011e1c86e",
-    "url": "/peliseries/static/js/main.c760a10b.chunk.js"
+    "revision": "b30d91db09adbfc41b82",
+    "url": "/peliseries/static/js/main.e9f2470e.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/peliseries/static/js/main.c760a10b.chunk.js.LICENSE.txt"
+    "url": "/peliseries/static/js/main.e9f2470e.chunk.js.LICENSE.txt"
   },
   {
     "revision": "44c52544d90ea83b16b6",

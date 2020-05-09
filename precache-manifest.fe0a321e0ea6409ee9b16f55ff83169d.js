@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "287f6002456fb48797577013809967cb",
+    "revision": "03c3f92cc9d1762e57b285e1f6508bbd",
     "url": "/peliseries/index.html"
   },
   {
-    "revision": "48a36ceec733a4e1a797",
+    "revision": "7223a677f9c011e1c86e",
     "url": "/peliseries/static/css/main.6523ad50.chunk.css"
   },
   {
-    "revision": "46ac08694844418abba9",
-    "url": "/peliseries/static/js/2.86008e1e.chunk.js"
+    "revision": "f59dc91ebc5185969791",
+    "url": "/peliseries/static/js/2.2d008fb8.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/peliseries/static/js/2.86008e1e.chunk.js.LICENSE.txt"
+    "url": "/peliseries/static/js/2.2d008fb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "48a36ceec733a4e1a797",
-    "url": "/peliseries/static/js/main.4129a19c.chunk.js"
+    "revision": "7223a677f9c011e1c86e",
+    "url": "/peliseries/static/js/main.c760a10b.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/peliseries/static/js/main.4129a19c.chunk.js.LICENSE.txt"
+    "url": "/peliseries/static/js/main.c760a10b.chunk.js.LICENSE.txt"
   },
   {
     "revision": "44c52544d90ea83b16b6",
